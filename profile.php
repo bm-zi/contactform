@@ -35,7 +35,7 @@ if (empty($_POST) === false) {
             try {
 
                 $message = new Message();
-                $message->setSender("sasidhar@sasidhar.com");
+                $message->setSender("user_name@mail.com");
                 $message->addTo($email);
                 $message->setSubject($subject);
                 $message->setTextBody($mailBody);
